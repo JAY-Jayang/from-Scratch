@@ -1,4 +1,5 @@
-# 『밑바닥부터 시작하는 딥러닝』
+
+이 코드는『밑바닥부터 시작하는 딥러닝』강의 실습 코드로 원 저작권은 아래에 있습니다.
 
 <a href="http://www.yes24.com/Product/Goods/34970929"><img src="https://github.com/WegraLee/deep-learning-from-scratch/blob/master/cover_image.jpg" width="200" align=right></a>
 

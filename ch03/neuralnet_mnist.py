@@ -3,6 +3,9 @@ import sys, os
 sys.path.append(os.pardir)  # 부모 디렉터리의 파일을 가져올 수 있도록 설정
 import numpy as np
 import pickle
+
+print(os.getcwd())
+
 from dataset.mnist import load_mnist
 from common.functions import sigmoid, softmax
 
@@ -10,6 +13,8 @@ from common.functions import sigmoid, softmax
 def get_data():
     (x_train, t_train), (x_test, t_test) = load_mnist(normalize=True, flatten=True, one_hot_label=False)
     return x_test, t_test
+
+    # 전처리 작업으로 정규화를 해줌 -> normalize = True
 
 
 def init_network():
